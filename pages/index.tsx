@@ -16,6 +16,9 @@ import Layout from "@/components/Layout";
 //api
 import { IndexApi } from '@/constants/api'
 
+//
+const colorImage=require('@/assets/color.jpg')
+
 type Props = {
   title?: { id: string, name: number }[]
 }
@@ -53,7 +56,7 @@ const Index: NextPage<Props> = ({
           <h1 key={v.id}>{v.name}</h1>
         )
       })}
-      <h1>{}</h1>
+      <img src={colorImage} alt="color"/>
     </Layout>
   );
 };
