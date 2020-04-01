@@ -8,3 +8,6 @@
 
 ### 1.1.0 @2020/4/1
 - add next-images
+
+### 1.1.1 @2020/4/1
+- add global css meta
